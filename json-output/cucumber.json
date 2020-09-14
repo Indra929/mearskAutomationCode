@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Validate the Countdown timer functionality of eggtimer",
+        "description": "",
+        "id": "verification-of-countdown-functionality;validate-the-countdown-timer-functionality-of-eggtimer;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12219998900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on the eggtimer home page",
+            "match": {
+              "location": "EggTimer.User_is_on_the_eggtimer_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3652091400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"25 seconds\" and click Go",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25 seconds",
+                  "offset": 13
+                }
+              ],
+              "location": "EggTimer.user_enters_times_and_Click_Go(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7018700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Countdown timer start",
+            "match": {
+              "location": "EggTimer.countdown_timer_Start()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22090847300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the remaining time decreases for each seconds increment",
+            "match": {
+              "location": "EggTimer.the_remaining_time_decreases_for_each_seconds_increment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@automated"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Countdown functionality",
+    "description": "",
+    "id": "verification-of-countdown-functionality",
+    "keyword": "Feature",
+    "uri": "EggTimer.feature"
+  }
+]
