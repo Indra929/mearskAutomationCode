@@ -110,7 +110,7 @@ formatter.match({
   "location": "EggTimer.User_is_on_the_eggtimer_home_page()"
 });
 formatter.result({
-  "duration": 12219998900,
+  "duration": 13137334200,
   "status": "passed"
 });
 formatter.match({
@@ -123,21 +123,21 @@ formatter.match({
   "location": "EggTimer.user_enters_times_and_Click_Go(String)"
 });
 formatter.result({
-  "duration": 3652091400,
+  "duration": 4642887100,
   "status": "passed"
 });
 formatter.match({
   "location": "EggTimer.countdown_timer_Start()"
 });
 formatter.result({
-  "duration": 7018700,
+  "duration": 5777900,
   "status": "passed"
 });
 formatter.match({
   "location": "EggTimer.the_remaining_time_decreases_for_each_seconds_increment()"
 });
 formatter.result({
-  "duration": 22090847300,
+  "duration": 22113703700,
   "status": "passed"
 });
 });

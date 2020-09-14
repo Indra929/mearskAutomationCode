@@ -33,7 +33,7 @@ public class TestBase {
 	
 	public static void initialization(){
 		
-			System.setProperty("webdriver.chrome.driver","C:\\DriverServers\\chromedriver_win32 (2)\\chromedriver.exe");	
+			System.setProperty("webdriver.chrome.driver","chromedriver//chromedriver.exe");	
 			driver = new ChromeDriver(); 
 			driver.get("https://e.ggtimer.com/");
 			Title = driver.getTitle();
